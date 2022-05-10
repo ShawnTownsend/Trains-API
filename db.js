@@ -5,7 +5,6 @@ const connectionDevelopment = {
   user: 'postgres',
   password: '@NewYork1788',
   host: 'localhost',
-  port: 5432,
 };
 
 const connectionProduction = {
