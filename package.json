@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "knex": "^2.0.0",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  },
+  "name": "trains-api",
+  "description": "Trains Station data",
+  "version": "1.0.0",
+  "main": "trains.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon trains.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnTownsend/Trains-API.git"
+  },
+  "author": "Shawn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnTownsend/Trains-API/issues"
+  },
+  "homepage": "https://github.com/ShawnTownsend/Trains-API#readme"
+}
