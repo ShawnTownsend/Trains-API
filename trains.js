@@ -3,7 +3,7 @@ const cors = require('cors');
 const trainsRouter = require('./routes/trainsRoutes');
 
 const app = express();
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 7001;
 
 app.use(express.json());
 app.use(cors());
